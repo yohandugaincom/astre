@@ -1,0 +1,52 @@
+body {
+  background-color: #080808;
+  color:white;
+}
+.text-bold {
+  font-family: 'Quicksand', sans-serif;
+  font-weight:700;
+}
+.text-light {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+.text {
+  font-family: 'Raleway', sans-serif;
+}
+.astre-color {
+  background-color: #f5bc31 !important;
+  color:black;
+}
+.nav-link {
+  color:white !important;
+}
+.navbar-toggler-icon {
+  filter:invert(1);
+}
+.evenements {
+  width:75%;
+  color:black;
+}
+.menu-card {
+  opacity:1;
+  display:inline-block;
+  width:20rem;
+  padding:2px;
+  margin:5px;
+  cursor:pointer;
+}
+.menu-card:hover {
+  opacity:0.5;
+  transition: opacity 0.5s;
+}
+.menu-alert {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.none {
+  opacity:0.2;
+  cursor:not-allowed;
+}
+.none:hover {
+  opacity:0.2;
+}
